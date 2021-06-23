@@ -1,7 +1,7 @@
 import * as React from "react";
 
 // markup
-const PapaPage = () => {
+const JohnPage = () => {
   return (
     <h1>
       The Dad
@@ -12,4 +12,4 @@ const PapaPage = () => {
   );
 };
 
-export default PapaPage;
+export default JohnPage;
