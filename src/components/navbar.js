@@ -6,7 +6,9 @@ const NavBar = () => {
   return (
     <header className={styles.header}>
       <nav className={styles.navbar}>
-        <span className={styles.span}>🚴</span>
+        <span className={styles.span} role='img' aria-label='heart'>
+          ❤️
+        </span>
         <Link className={styles.link} to='/'>
           <h1 className={styles.siteTitle}>La Familia Davis</h1>
         </Link>
