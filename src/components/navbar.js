@@ -9,9 +9,7 @@ const NavBar = () => {
         <span className={styles.span} role='img' aria-label='heart'>
           ❤️
         </span>
-        <Link className={styles.link} to='/'>
-          <h1 className={styles.siteTitle}>La Familia Davis</h1>
-        </Link>
+        <h1 className={styles.siteTitle}>La Familia Davis</h1>
         <ul className={styles.navList}>
           <li className={styles.navListItem}>
             <Link className={styles.link} to='/john'>
@@ -37,6 +35,16 @@ const NavBar = () => {
             <Link className={styles.link} to='/john'>
               Linda
             </Link>{" "}
+          </li>
+          <li className={styles.navListItem}>
+            <Link className={styles.link} to='/'>
+              <p className={styles.specialLink}>Abuelitos</p>
+            </Link>
+          </li>
+          <li className={styles.navListItem}>
+            <Link className={styles.link} to='/'>
+              <p className={styles.specialLink}>Home</p>
+            </Link>
           </li>
         </ul>
       </nav>
