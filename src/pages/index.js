@@ -6,7 +6,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle='Our Home Page'>
       <h1>
-        The Official Website of The Davis Family{" "}
+        The Davis Family{" "}
         <span role='img' aria-label='Emoji with Heart Eyes'>
           😍
         </span>

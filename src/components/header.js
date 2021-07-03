@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import * as styles from "./navbar.module.css";
+import * as styles from "./header.module.css";
 
-const NavBar = () => {
+const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={styles.navbar}>
@@ -43,7 +43,7 @@ const NavBar = () => {
           </li>
           <li className={styles.navListItem}>
             <Link className={styles.link} to='/'>
-              <p className={styles.specialLink}>Home</p>
+              Home
             </Link>
           </li>
         </ul>
@@ -52,4 +52,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Header;

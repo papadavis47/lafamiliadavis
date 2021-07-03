@@ -1,14 +1,16 @@
 import * as React from "react";
-import NavBar from "./navbar";
-import "./layout.module.css";
+import Header from "./header";
+import * as layoutStyles from "./layout.module.css";
 
 const Layout = ({ pageTitle, children }) => {
   return (
     <>
-      <NavBar />
-      <title>{pageTitle}</title>
-      <h1>{pageTitle}</h1>
-      <main>{children}</main>
+      <Header />
+      <div>
+        <title>{pageTitle}</title>
+        <h1 className={layoutStyles.name}>{pageTitle}</h1>
+      </div>
+      <main className={layoutStyles.content}>{children}</main>
     </>
   );
 };

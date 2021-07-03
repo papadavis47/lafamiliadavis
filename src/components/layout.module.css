@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  margin: 2rem;
+}
+
 html {
   height: 100vh;
 }
