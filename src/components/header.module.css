@@ -1,8 +1,16 @@
 .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #0984e3;
   color: white;
   padding: 1rem;
   font-family: "Comic Neue";
+}
+
+.header-title {
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .site-title {

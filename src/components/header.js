@@ -5,16 +5,21 @@ import * as styles from "./header.module.css";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <nav className={styles.navbar}>
-        <span className={styles.span} role='img' aria-label='heart'>
-          ❤️
-        </span>
+      <div className={styles.headerTitle}>
         <Link to='/' className={styles.titleLink}>
-          <h1 className={styles.siteTitle}>La Familia Davis</h1>
+          <h1 className={styles.siteTitle}>
+            {" "}
+            <span className={styles.span} role='img' aria-label='heart'>
+              ❤️
+            </span>
+            La Familia Davis{" "}
+            <span className={styles.span} role='img' aria-label='heart'>
+              ❤️
+            </span>
+          </h1>
         </Link>
-        <span className={styles.span} role='img' aria-label='heart'>
-          ❤️
-        </span>
+      </div>
+      <nav className={styles.navbar}>
         <ul className={styles.navList}>
           <li className={styles.navListItem}>
             <Link className={styles.link} to='/john'>
