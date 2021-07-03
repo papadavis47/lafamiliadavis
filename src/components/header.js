@@ -9,7 +9,12 @@ const Header = () => {
         <span className={styles.span} role='img' aria-label='heart'>
           ❤️
         </span>
-        <h1 className={styles.siteTitle}>La Familia Davis</h1>
+        <Link to='/' className={styles.titleLink}>
+          <h1 className={styles.siteTitle}>La Familia Davis</h1>
+        </Link>
+        <span className={styles.span} role='img' aria-label='heart'>
+          ❤️
+        </span>
         <ul className={styles.navList}>
           <li className={styles.navListItem}>
             <Link className={styles.link} to='/john'>
