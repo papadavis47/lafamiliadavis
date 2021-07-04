@@ -5,7 +5,7 @@ const PageTitles = ({ pageTitle }) => {
   return (
     <div className={pageTitleStyles.content}>
       <title>{pageTitle}</title>
-      <h1 className={pageTitleStyles.name}>{pageTitle}</h1>
+      <h1>{pageTitle}</h1>
       <h3>Viva Nicaragua!</h3>
     </div>
   );

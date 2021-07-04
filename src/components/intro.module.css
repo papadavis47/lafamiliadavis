@@ -1,0 +1,9 @@
+.container {
+  color: red;
+  background-color: yellow;
+  padding: 0.5rem 0;
+}
+
+.container h1 {
+  text-align: center;
+}

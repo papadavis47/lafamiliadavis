@@ -22,27 +22,27 @@ const Header = () => {
       <nav className={styles.navbar}>
         <ul className={styles.navList}>
           <li className={styles.navListItem}>
-            <Link className={styles.link} to='/john'>
+            <Link className={styles.link} to='/john' activeClassName='active'>
               John
             </Link>{" "}
           </li>
           <li className={styles.navListItem}>
-            <Link className={styles.link} to='/inma'>
+            <Link className={styles.link} to='/inma' activeClassName='active'>
               Inma
             </Link>{" "}
           </li>
           <li className={styles.navListItem}>
-            <Link className={styles.link} to='/john'>
+            <Link className={styles.link} to='/diego' activeClassName='active'>
               Diego
             </Link>{" "}
           </li>
           <li className={styles.navListItem}>
-            <Link className={styles.link} to='/john'>
+            <Link className={styles.link} to='/santiago' activeClassName='active'>
               Santiago
             </Link>{" "}
           </li>
           <li className={styles.navListItem}>
-            <Link className={styles.link} to='/john'>
+            <Link className={styles.link} to='/linda' activeClassName='active'>
               Linda
             </Link>{" "}
           </li>
@@ -52,7 +52,7 @@ const Header = () => {
             </Link>
           </li>
           <li className={styles.navListItem}>
-            <Link className={styles.link} to='/'>
+            <Link className={styles.link} to='/' activeClassName='active'>
               Home
             </Link>
           </li>
