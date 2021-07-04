@@ -4,18 +4,13 @@
   align-items: center;
   background-color: #0984e3;
   color: white;
-  padding: 1rem;
   font-family: "Comic Neue";
 }
 
-.header-title {
-  margin-top: 1rem;
-  padding-top: 1rem;
-}
-
 .site-title {
-  font-size: 3rem;
-  /* padding-right: 2rem; */
+  font-size: 2.75rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 .span {
@@ -26,7 +21,6 @@
 .navbar {
   display: flex;
   justify-content: center;
-  margin: 2rem;
 }
 
 .nav-list {
@@ -38,7 +32,6 @@
 
 .nav-list-item {
   padding-left: 1rem;
-  margin-top: 0.5rem;
   font-size: 1.5rem;
 }
 
@@ -54,7 +47,6 @@
 
 .link:hover {
   text-decoration: underline;
-  line-height: 1.5rem;
 }
 
 .special-link {

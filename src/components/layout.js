@@ -1,5 +1,6 @@
 import * as React from "react";
 import Header from "./header";
+import "normalize.css";
 import * as layoutStyles from "./layout.module.css";
 
 const Layout = ({ pageTitle, children }) => {
