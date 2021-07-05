@@ -1,8 +1,10 @@
-import * as React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
+import { GrMenu } from "react-icons/gr";
 import * as styles from "./header.module.css";
 
 const Header = () => {
+  const [show, setShow] = useState(false);
   return (
     <header className={styles.header}>
       <div>
@@ -19,7 +21,10 @@ const Header = () => {
           </h1>
         </Link>
       </div>
-      <nav className={styles.navbar}>
+      <button onClick={() => setShow(!show)}>
+        Menu <GrMenu />
+      </button>
+      <nav className={show ? `${styles.navbar}` : `${styles.navbar} ${styles.hidden}`}>
         <ul className={styles.navList}>
           <li className={styles.navListItem}>
             <Link className={styles.link} to='/john' activeClassName='active-link'>
