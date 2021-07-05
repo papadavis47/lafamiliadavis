@@ -6,11 +6,7 @@ import Layout from "../components/Layout";
 const AbuelitosPage = () => {
   return (
     <Layout pageTitle="Abuelitos' Page">
-      <Intro
-        name='🖌️ Victor Fuentes 🖌️ and 🎨 Inmaculada Cruz'
-        emoji='🎨'
-        label='Artist pallete emoji'
-      />
+      <Intro name='Victor Fuentes and Inmaculada Cruz' emoji='🎨' label='Artist pallete emoji' />
     </Layout>
   );
 };
