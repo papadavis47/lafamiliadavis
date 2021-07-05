@@ -11,11 +11,12 @@
   font-size: 2.75rem;
   margin-top: 2rem;
   margin-bottom: 0;
+  margin-right: 0;
 }
 
 .span {
   font-size: 2rem;
-  margin: 0 2rem;
+  margin: 0 1rem;
 }
 
 .navbar {
@@ -60,10 +61,44 @@
   font-weight: 800;
 }
 
+/* Media Queries */
+
 @media (max-width: 600px) {
+  .navbar {
+    padding-bottom: 2rem;
+  }
+
   .site-title {
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 0;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .special-link {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-list-item:last-child {
+    font-weight: 800;
+    border: none;
+  }
+
+  .nav-list-item {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .span {
+    font-size: 1rem;
+    margin: 0 1rem;
   }
 }
