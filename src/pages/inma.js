@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 const InmaPage = () => {
   return (
     <Layout pageTitle="Inma's Page">
-      <Intro name='The Mom' emoji='💃🏽' label='A woman dancing' />
+      <Intro name='The Dancing Mom' emoji='💃🏽' label='A woman dancing' />
     </Layout>
   );
 };

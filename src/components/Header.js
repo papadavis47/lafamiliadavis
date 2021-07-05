@@ -5,7 +5,7 @@ import * as styles from "./header.module.css";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.headerTitle}>
+      <div>
         <Link to='/' className={styles.titleLink}>
           <h1 className={styles.siteTitle}>
             {" "}
