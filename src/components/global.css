@@ -1,3 +1,7 @@
-.active {
+.active-link {
   color: yellow;
+}
+
+.home-link {
+  display: none;
 }
