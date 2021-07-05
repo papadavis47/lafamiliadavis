@@ -68,6 +68,9 @@
 
 .header svg {
   font-size: 1.5rem;
+  padding-left: 3px;
+  margin-left: 3px;
+  padding-bottom: 0;
 }
 
 /* Media Queries */
@@ -75,10 +78,12 @@
 @media (max-width: 600px) {
   .navbar {
     padding-bottom: 2rem;
+    padding-left: 0;
   }
 
   .header button {
     margin-bottom: 2rem;
+    padding-top: 0.5rem;
   }
 
   .site-title {
@@ -94,6 +99,7 @@
     justify-content: center;
     align-items: flex-start;
     margin: 0;
+    padding-left: 0;
   }
 
   .special-link {
