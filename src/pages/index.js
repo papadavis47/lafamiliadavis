@@ -35,7 +35,12 @@ const IndexPage = () => {
             </p>
           </div>
           <div className={styles.gridItem2}>
-            <StaticImage src='../images/our-family.jpg' alt='Two handsome twin boys' width={700} />
+            <StaticImage
+              src='../images/our-family.jpg'
+              alt='Two handsome twin boys'
+              width={700}
+              placeholder='blurred'
+            />
           </div>
         </div>
       </main>

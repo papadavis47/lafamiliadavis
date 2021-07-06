@@ -8,7 +8,7 @@ import * as styles from "./inma.module.css";
 const InmaPage = () => {
   return (
     <Layout pageTitle="Inma's Page">
-      <Intro name='The Dancing Mom' emoji='💃🏽' label='A woman dancing' />
+      <Intro name='The Beautiful Mom' emoji='💃🏽' label='A woman dancing' />
       <main className={styles.page}>
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
@@ -39,7 +39,7 @@ const InmaPage = () => {
               src='../images/inma.jpg'
               alt='Beautiful Mom on a Happy Day'
               width={700}
-              placeholder='tracedSVG'
+              placeholder='blurred'
             />
           </div>
         </div>
