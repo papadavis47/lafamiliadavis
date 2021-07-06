@@ -2,6 +2,8 @@
   color: red;
   background-color: yellow;
   padding: 0.5rem 0;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .container h1 {
