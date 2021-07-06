@@ -8,7 +8,7 @@ import * as styles from "./index.module.css";
 const IndexPage = () => {
   return (
     <Layout pageTitle='Our Home Page'>
-      <Intro name='The Davis Family' emoji='😍' label='Emoji with Heart Eyes' />
+      <Intro name='Our Family' emoji='😍' label='Emoji with Heart Eyes' />
       <main className={styles.page}>
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
