@@ -66,11 +66,11 @@
   display: none;
 }
 
-.header svg {
+/* .header svg {
   font-size: 2rem;
   padding-left: 3px;
   margin-left: 3px;
-}
+} */
 
 /* Media Queries */
 
@@ -88,9 +88,10 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     /* padding-bottom: 3px; */
-    padding-top: 3px;
+    padding: 22px;
     align-self: center;
     display: block;
+    font-weight: 700;
   }
 
   .site-title {

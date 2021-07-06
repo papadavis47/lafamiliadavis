@@ -21,9 +21,7 @@ const Header = () => {
           </h1>
         </Link>
       </div>
-      <button onClick={() => setShow(!show)}>
-        Menu <GrMenu />
-      </button>
+      <button onClick={() => setShow(!show)}>Menu</button>
       <nav className={show ? `${styles.navbar}` : `${styles.navbar} ${styles.hidden}`}>
         <ul className={styles.navList}>
           <li className={styles.navListItem}>
