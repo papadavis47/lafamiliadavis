@@ -6,11 +6,11 @@ import "normalize.css";
 import "./global.css";
 // import * as layoutStyles from "./layout.module.css";
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <PageTitles pageTitle={pageTitle} />
+      {/* <PageTitles pageTitle={pageTitle} /> */}
       {children}
       <Footer />
     </>
