@@ -1,5 +1,7 @@
 .page p {
   font-size: 1.3rem;
+  margin-top: 0;
+  text-justify: auto;
 }
 .grid-container {
   display: grid;

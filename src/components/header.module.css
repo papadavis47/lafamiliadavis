@@ -66,6 +66,13 @@
   display: none;
 }
 
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
 /* .header svg {
   font-size: 2rem;
   padding-left: 3px;
@@ -150,11 +157,11 @@
   }
 } */
 
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
   .header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 99;
   }
-}
+} */
