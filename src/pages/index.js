@@ -2,7 +2,7 @@ import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
-import * as styles from "./index.module.css";
+import * as styles from "./main.module.css";
 
 // markup
 const IndexPage = () => {
@@ -11,7 +11,7 @@ const IndexPage = () => {
       <Intro name='Our Family' emoji='😍' label='Emoji with Heart Eyes' />
       <main className={styles.page}>
         <div className={styles.gridContainer}>
-          <div className={styles.gridItem1}>
+          <div>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
               consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
@@ -34,7 +34,7 @@ const IndexPage = () => {
               maxime, hic tempore assumenda soluta?
             </p>
           </div>
-          <div className={styles.gridItem2}>
+          <div>
             <StaticImage
               src='../images/our-family.jpg'
               alt='Two handsome twin boys'
