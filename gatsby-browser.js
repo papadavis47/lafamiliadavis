@@ -1,1 +1,1 @@
-import "@fontsource/comic-neue"; // Defaults to weight 400.
+// import "@fontsource/comic-neue"; // Defaults to weight 400.

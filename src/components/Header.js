@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import { GrMenu } from "react-icons/gr";
 import * as styles from "./header.module.css";
 
 const Header = () => {

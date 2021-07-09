@@ -4,7 +4,6 @@
   align-items: center;
   background-color: #0984e3;
   color: white;
-  font-family: "Comic Neue";
   margin-bottom: 1rem;
 }
 
@@ -48,7 +47,8 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color: yellow;
 }
 
 .special-link {
