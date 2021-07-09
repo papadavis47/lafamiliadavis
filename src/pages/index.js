@@ -11,7 +11,7 @@ const IndexPage = () => {
       <Intro name='Our Family' emoji='😍' label='Emoji with Heart Eyes' />
       <main className={styles.page}>
         <div className={styles.gridContainer}>
-          <div>
+          <div className={styles.gridItem1}>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
               consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
