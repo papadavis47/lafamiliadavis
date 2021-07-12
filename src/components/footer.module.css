@@ -2,6 +2,7 @@
   background: orangered;
   color: white;
   text-align: center;
+  /* padding: 1rem 0; */
   height: 4rem;
   display: flex;
   align-items: center;
@@ -16,4 +17,11 @@
 
 .page-footer span {
   color: yellow;
+}
+
+@media (max-width: 700px) {
+  .page-footer {
+    padding: 1rem 0.5rem;
+    font-size: 1.25rem;
+  }
 }
