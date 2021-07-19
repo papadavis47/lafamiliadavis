@@ -6,6 +6,8 @@ import * as styles from "./main.module.css";
 
 // markup
 const IndexPage = () => {
+  // This was for the Dan Abramov exercise
+  console.log(typeof StaticImage);
   return (
     <Layout pageTitle='Our Home Page'>
       <Intro name='Our Family' emoji='😍' label='Emoji with Heart Eyes' />
