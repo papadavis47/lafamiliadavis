@@ -2,14 +2,14 @@ import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
+import Seo from "../components/Seo";
 import * as styles from "./main.module.css";
 
 // markup
 const IndexPage = () => {
-  // This was for the Dan Abramov exercise
-  console.log(typeof StaticImage);
   return (
-    <Layout pageTitle='Our Home Page'>
+    <Layout>
+      <Seo title='Home' />
       <Intro name='Our Family' emoji='😍' label='Emoji with Heart Eyes' />
       <main className={styles.page}>
         <div className={styles.gridContainer}>

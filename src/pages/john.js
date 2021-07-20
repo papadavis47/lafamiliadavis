@@ -2,12 +2,14 @@ import * as React from "react";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
+import Seo from "../components/Seo";
 import * as styles from "./main.module.css";
 
 // markup
 const JohnPage = () => {
   return (
-    <Layout pageTitle="John's Page">
+    <Layout>
+      <Seo title='John' description='The Cool Programmer Dad' />
       <Intro name='The Cool Dad' emoji='🎽' labe='Runner Shirt' />
       <main className={styles.page}>
         <div className={styles.gridContainer}>

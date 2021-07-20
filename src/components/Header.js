@@ -3,10 +3,6 @@ import { Link } from "gatsby";
 import * as styles from "./header.module.css";
 
 const Header = () => {
-  // The following console.logs are for Dan Abramov's course
-  console.log(typeof Link);
-  console.log(typeof useState);
-  console.log(typeof React);
   const [show, setShow] = useState(false);
   return (
     <header className={styles.header}>
