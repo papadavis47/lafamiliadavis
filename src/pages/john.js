@@ -43,6 +43,7 @@ const JohnPage = () => {
               width={700}
               placeholder='blurred'
               transformOptions={{ grayscale: true }}
+              imgClassName={styles.pic}
             />
           </div>
         </div>

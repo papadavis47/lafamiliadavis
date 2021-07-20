@@ -42,6 +42,7 @@ const AbuelitosPage = () => {
               alt='Some beautiful grandparents'
               width={700}
               placeholder='blurred'
+              imgClassName={styles.pic}
             />
           </div>
         </div>

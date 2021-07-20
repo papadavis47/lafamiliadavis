@@ -42,6 +42,7 @@ const DiegoPage = () => {
               alt='My beautiful boy, Diego'
               width={700}
               placeholder='blurred'
+              imgClassName={styles.pic}
             />
           </div>
         </div>

@@ -42,6 +42,7 @@ const InmaPage = () => {
               alt='Beautiful Mom on a Happy Day'
               width={700}
               placeholder='blurred'
+              imgClassName={styles.pic}
             />
           </div>
         </div>

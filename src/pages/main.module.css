@@ -12,6 +12,10 @@
   padding: 2rem 0;
 }
 
+.pic {
+  border-radius: 1.5%;
+}
+
 /* .grid-item-1  p {
   padding-top: 0;
 } */

@@ -1,9 +1,9 @@
 import React from "react";
-import * as introStyles from "./intro.module.css";
+import * as styles from "./intro.module.css";
 
 const Intro = ({ name, emoji, label }) => {
   return (
-    <div className={introStyles.container}>
+    <div className={styles.container}>
       <h1>
         {name}&nbsp;
         <span role='img' aria-label={label}>

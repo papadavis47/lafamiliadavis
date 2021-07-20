@@ -42,6 +42,7 @@ const IndexPage = () => {
               alt='Two handsome twin boys'
               width={700}
               placeholder='blurred'
+              imgClassName={styles.pic}
             />
           </div>
         </div>

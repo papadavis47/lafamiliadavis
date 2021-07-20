@@ -42,6 +42,7 @@ const LindaPage = () => {
               alt='Beautiful little girl with bird'
               width={700}
               placeholder='blurred'
+              imgClassName={styles.pic}
             />
           </div>
         </div>
