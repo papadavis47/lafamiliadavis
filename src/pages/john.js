@@ -15,25 +15,21 @@ const JohnPage = () => {
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
-              consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
-              perferendis dolorem consequatur quisquam autem nobis recusandae odio et, nisi nulla
-              labore aspernatur aut nam! Dolorem eum esse nemo nobis rem minima. Praesentium cumque
-              maxime, hic tempore assumenda soluta?
+              John Davis is a software engineer focused on front end web development technologies.
+              His main focus is React.js - along with Next.js and Gatsby.
             </p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
-              consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
-              perferendis dolorem consequatur quisquam autem nobis recusandae odio et, nisi nulla
-              labore aspernatur aut nam! Dolorem eum esse nemo nobis rem minima. Praesentium cumque
-              maxime, hic tempore assumenda soluta?
+              The main love in his life is his family - a wife and three kids. He is using this
+              website as a place to experiment with Gatsby.
             </p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
-              consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
-              perferendis dolorem consequatur quisquam autem nobis recusandae odio et, nisi nulla
-              labore aspernatur aut nam! Dolorem eum esse nemo nobis rem minima. Praesentium cumque
-              maxime, hic tempore assumenda soluta?
+              This website is his sandbox - constantly changing. He wanted the content of the site
+              to revolve around what inspires him more than anything else.
+            </p>
+            <p>His beautiful family.</p>
+            <p>
+              In addition to be an alternative to social media for his family, from the beginning he
+              wanted this site to be a place for experimentation and fun as a web developer.
             </p>
           </div>
           <div>

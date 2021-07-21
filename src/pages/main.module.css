@@ -1,6 +1,8 @@
 .page p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-top: 0;
+  /* color: #353b48; */
+  color: #485460;
 }
 
 .grid-container {
@@ -28,5 +30,9 @@
 
   .grid-item-1 {
     margin-top: 1rem;
+  }
+
+  .page p {
+    font-size: 1rem;
   }
 }
