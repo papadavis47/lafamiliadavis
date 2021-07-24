@@ -15,21 +15,20 @@ const JohnPage = () => {
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
             <p>
-              John Davis is a software engineer focused on front end web development technologies.
-              His main focus is React.js - along with Next.js and Gatsby.
+              John Davis is a software engineer focused on JavaScript and Python. His primary
+              interest is React.js - along with Next.js, Gatsby, and the rest of the React
+              ecosystem. His favorite backend technologies are Express, Django and Flask. He is also
+              interested in all things JAMStack.
+            </p>
+            <p>The main love in his life is his family.</p>
+            <p>
+              He uses this website as a place to experiment with Gatsby. These pages are his sandbox
+              - and they will be constantly changing. He wanted the content of the site to revolve
+              around what inspires him more than anything else.
             </p>
             <p>
-              The main love in his life is his family - a wife and three kids. He is using this
-              website as a place to experiment with Gatsby.
-            </p>
-            <p>
-              This website is his sandbox - constantly changing. He wanted the content of the site
-              to revolve around what inspires him more than anything else.
-            </p>
-            <p>His beautiful family.</p>
-            <p>
-              In addition to be an alternative to social media for his family, from the beginning he
-              wanted this site to be a place for experimentation and fun as a web developer.
+              From the beginning he wanted this small space on the internet to be a place for
+              experimentation and fun.
             </p>
           </div>
           <div>
