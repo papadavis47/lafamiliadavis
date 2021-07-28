@@ -14,27 +14,9 @@ const LindaPage = () => {
       <main className={styles.page}>
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
-              consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
-              perferendis dolorem consequatur quisquam autem nobis recusandae odio et, nisi nulla
-              labore aspernatur aut nam! Dolorem eum esse nemo nobis rem minima. Praesentium cumque
-              maxime, hic tempore assumenda soluta?
-            </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
-              consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
-              perferendis dolorem consequatur quisquam autem nobis recusandae odio et, nisi nulla
-              labore aspernatur aut nam! Dolorem eum esse nemo nobis rem minima. Praesentium cumque
-              maxime, hic tempore assumenda soluta?
-            </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
-              consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
-              perferendis dolorem consequatur quisquam autem nobis recusandae odio et, nisi nulla
-              labore aspernatur aut nam! Dolorem eum esse nemo nobis rem minima. Praesentium cumque
-              maxime, hic tempore assumenda soluta?
-            </p>
+            <p>Linda is an incredible daughter 🤩</p>
+            <p>Her first and middle names together mean "Pretty ⭐"</p>
+            <p>And she is 🙂</p>
           </div>
           <div>
             <StaticImage

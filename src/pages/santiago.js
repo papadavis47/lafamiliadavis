@@ -14,27 +14,9 @@ const SantiagoPage = () => {
       <main className={styles.page}>
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
-              consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
-              perferendis dolorem consequatur quisquam autem nobis recusandae odio et, nisi nulla
-              labore aspernatur aut nam! Dolorem eum esse nemo nobis rem minima. Praesentium cumque
-              maxime, hic tempore assumenda soluta?
-            </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
-              consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
-              perferendis dolorem consequatur quisquam autem nobis recusandae odio et, nisi nulla
-              labore aspernatur aut nam! Dolorem eum esse nemo nobis rem minima. Praesentium cumque
-              maxime, hic tempore assumenda soluta?
-            </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam perferendis pariatur
-              consequuntur dolores amet officiis placeat. Facere fugiat magni dolor accusantium
-              perferendis dolorem consequatur quisquam autem nobis recusandae odio et, nisi nulla
-              labore aspernatur aut nam! Dolorem eum esse nemo nobis rem minima. Praesentium cumque
-              maxime, hic tempore assumenda soluta?
-            </p>
+            <p>Santiago is a beautiful boy 🥇</p>
+            <p>He is great on a bike 💯</p>
+            <p>He loves his family 😀</p>
           </div>
           <div>
             <StaticImage
