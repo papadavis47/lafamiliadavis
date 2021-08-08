@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #0984e3;
+  /* background-color: #0984e3; */
+  background-image: linear-gradient(#4a69bd, #0984e3);
   color: white;
   margin-bottom: 1rem;
 }
