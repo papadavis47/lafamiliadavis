@@ -14,15 +14,16 @@ const JohnPage = () => {
       <main className={styles.page}>
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
-            <p>John William Davis is a software engineer focused on JavaScript and Python.</p>
+            <p>John William Davis is a software engineer focused on frontend web technologies.</p>
             <p>
               His primary interest is building user interfaces with React - including with Next.js
               and Gatsby ❤️
             </p>
 
             <p>
-              His favorite backend technologies are Express, Django and Flask. He is also interested
-              in all things JAMStack.
+              His other interests in programming include Python, MongoDB, ethical hacking/CTF
+              competions, and all things JAMStack. His favorite backend technologies are Express,
+              Django and Flask.
             </p>
             <p>The main love in his life is his family.</p>
             <p>
