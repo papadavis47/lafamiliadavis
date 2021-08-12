@@ -14,7 +14,10 @@ const IndexPage = () => {
       <main className={styles.page}>
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
-            <p>This is our family's website 👪 where we share some of our story and experiences.</p>
+            <p>
+              This is our family's website 👪 where we share some of our story and some of our
+              experiences as parents ( and as children ) in the 21st Century.
+            </p>
             <p>
               We love eachother very much and this website is evolving in celebration of that love
               💖
@@ -27,7 +30,7 @@ const IndexPage = () => {
 
             <p>
               Years before the kids were born, John and Inma decided that they would raise their
-              "future" children - to appreciate the culture and history of both countries. They have
+              "future children" - to appreciate the culture and history of both countries. They have
               done just that 🦚
             </p>
             <p>
