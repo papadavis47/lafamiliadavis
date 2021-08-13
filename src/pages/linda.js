@@ -15,8 +15,29 @@ const LindaPage = () => {
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
             <p>Linda is an incredible daughter 🤩</p>
-            <p>Her first and middle names together mean "Pretty ⭐"</p>
+            <p>
+              She enjoys watching anime, reading anime and playing on her iPad. She is interested in
+              Japanes culture and Japanese food.
+            </p>
+            <p>
+              Ever since she was a baby she has been an adventurous eater. She will try any type of
+              food from anywhere in the world, and she likes most foods.
+            </p>
+            <p>She loves animated movies of all kinds and she loves dogs.</p>
+            <p>Linda is her father's pride and joy 🤩 💯</p>
+            <p>
+              She loves and admires her grandmother and her Mom. She has always been sweet and
+              kindhearted. She is a good sister to her brothers.
+            </p>
+            <p>She is the very creative 🎨 princess of the Davis Family 💯 </p>
+            <p>Her first and middle names together mean "Pretty Star ⭐"</p>
             <p>And she is 🙂</p>
+            <StaticImage
+              src='../images/tokyo.jpg'
+              alt='Tokyo Skyline at Night'
+              width={600}
+              placeholder='blurred'
+            />
           </div>
           <div>
             <StaticImage

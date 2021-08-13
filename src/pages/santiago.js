@@ -30,6 +30,12 @@ const SantiagoPage = () => {
               kind heart 💖
             </p>
             <p>His parents have been proud of him everyday - since his first day ⭐</p>
+            <StaticImage
+              src='../images/fortnite-blue.png'
+              alt='Fortnite logo'
+              width={600}
+              placeholder='blurred'
+            />
           </div>
           <div>
             <StaticImage
