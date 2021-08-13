@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
@@ -26,10 +27,13 @@ const DiegoPage = () => {
             </p>
             <p>
               Diego is the first born twin and has been nicknamed "Baby A" since before he was born
-              ( meaning the baby growing closets to his mother's cervix ). His brother, Santiago
-              "Baby B" has always been there for him and Diego has always been the closest friend of
-              his brother.
+              ( meaning the baby growing closets to his mother's cervix ).
             </p>
+            <p>
+              His brother <Link to='/santiago'>Santiago</Link>, "Baby B", has always been there for
+              him and Diego has always been the closest friend of his brother.
+            </p>
+
             <p>Both of his parents are proud of his intelligence, and his charm.</p>
             <p>Most of all, his parents are proud that he is a very kind hearted boy 🤹‍♂️</p>
           </div>

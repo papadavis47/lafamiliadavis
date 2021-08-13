@@ -10,7 +10,7 @@ const JohnPage = () => {
   return (
     <Layout>
       <Seo title='John' description='The Cool Programmer Dad' />
-      <Intro name='The Cool Dad' emoji='🎽' labe='Runner Shirt' />
+      <Intro name='The Cool Dad' emoji='🎽' label='Runner Shirt' />
       <main className={styles.page}>
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>

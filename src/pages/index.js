@@ -18,8 +18,9 @@ const IndexPage = () => {
               This is our family's website 👪 where we share some of our story and some of our
               experiences as parents ( and as children ) in the 21st Century.
             </p>
+            <p>John is a software developer and Inma is an eductor.</p>
             <p>
-              We love eachother very much and this website is evolving in celebration of that love
+              We love each other very much and this website is evolving in celebration of that love
               💖
             </p>
             <p>
@@ -37,7 +38,6 @@ const IndexPage = () => {
               We enjoy restaurants, road trips, camping, movies, books, Netflix and spending time
               with eachtother.
             </p>
-            <p>John is a software developer and Inma is an eductor.</p>
 
             <p>
               The kids love their various digital devices 😨 Their parents have to keep vigilant

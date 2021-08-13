@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
@@ -14,9 +15,21 @@ const SantiagoPage = () => {
       <main className={styles.page}>
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
-            <p>Santiago is a beautiful boy 🥇</p>
-            <p>He is great on a bike 💯</p>
-            <p>He loves his family 😀</p>
+            <p>Santiago is a beautiful boy 🥇 He always has been.</p>
+            <p>
+              Like his brother <Link to='/diego'>Diego</Link>, "Baby A", he enjoys video games and
+              animae. His favorite games are also Fortnite, Roblox and Minecraft.
+            </p>
+            <p>
+              Some of his other interests include watching movies, playing basketball and reading
+              books that interest him.
+            </p>
+            <p>He is great on a bike 💯 He is a good swimmer and he loves the water.</p>
+            <p>
+              Santiago can be wise beyond his years. He can be very insightful and he has a huge,
+              kind heart 💖
+            </p>
+            <p>His parents have been proud of him everyday - since his first day ⭐</p>
           </div>
           <div>
             <StaticImage

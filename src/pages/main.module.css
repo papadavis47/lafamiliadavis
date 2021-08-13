@@ -1,5 +1,6 @@
 .page p {
   font-size: 1.1rem;
+  line-height: 1.3rem;
   margin-top: 0;
   /* color: #353b48; */
   color: #485460;
@@ -17,6 +18,11 @@
 
 .pic {
   border-radius: 1.5%;
+}
+
+a {
+  color: red;
+  text-decoration: none;
 }
 
 /* .grid-item-1  p {
