@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
@@ -24,7 +25,9 @@ const LindaPage = () => {
               food from anywhere in the world, and she likes most foods.
             </p>
             <p>She loves animated movies of all kinds and she loves dogs.</p>
-            <p>Linda is her father's pride and joy 🤩 💯</p>
+            <p>
+              Linda is the pride and joy of her <Link to='/john'>father</Link> 🤩 💯
+            </p>
             <p>
               She loves and admires her grandmother and her Mom. She has always been sweet and
               kindhearted. She is a good sister to her brothers.

@@ -17,8 +17,8 @@ const SantiagoPage = () => {
           <div className={styles.gridItem1}>
             <p>Santiago is a beautiful boy 🥇</p>
             <p>
-              Like his brother <Link to='/diego'>Diego</Link>, "Baby A", he enjoys video games and
-              anime. His favorite games are also Fortnite, Roblox and Minecraft.
+              Like his brother, <Link to='/diego'>Diego</Link> ("Baby A"), Santiago enjoys video
+              games and anime. His favorite games are Fortnite, Roblox and Minecraft.
             </p>
             <p>
               Some of his other interests include watching movies, playing basketball and reading

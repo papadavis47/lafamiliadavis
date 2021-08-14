@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
@@ -18,7 +19,7 @@ const AbuelitosPage = () => {
               Victor Fuentes 🇳🇮 and Inmaculada Cruz de Fuentes 🇳🇮 have helped raise the Davis
               Children from the first minutes they were born 🌄
             </p>
-            <p>They are classy and amazing grandparents and inlaws 🥇</p>
+            <p>They are classy and amazing grandparents and in-laws 🥇</p>
             <p>The Davis Kids would not be who they are today without these two grandparents 💯</p>
             <p>The are both talented and accomplished painters.</p>{" "}
             <p>
@@ -30,9 +31,9 @@ const AbuelitosPage = () => {
               in 1999.
             </p>
             <p>
-              For the majority of that time, their daughter has been married to a "gringo" - a North
-              American - and they have always impressed their son-in-law with their Nicaraguan
-              sensibilies regarding family love and devotion.
+              For the majority of that time, their <Link to='/inma'>daughter</Link> has been married
+              to a "gringo" - a North American - and they have always impressed their son-in-law
+              with their Nicaraguan sensibilies regarding family love and devotion.
             </p>
             <p>They are both caring and loving parents and grandparents.</p>
           </div>

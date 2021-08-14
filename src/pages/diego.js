@@ -30,8 +30,8 @@ const DiegoPage = () => {
               ( meaning the baby growing closets to his mother's cervix ).
             </p>
             <p>
-              His brother <Link to='/santiago'>Santiago</Link>, "Baby B", has always been there for
-              him and Diego has always been the closest friend of his brother.
+              His brother, <Link to='/santiago'>Santiago</Link> ("Baby B"), has always been there
+              for him and Diego has always been the closest friend of his brother.
             </p>
 
             <p>Both of his parents are proud of his intelligence, and his charm.</p>
