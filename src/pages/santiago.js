@@ -15,10 +15,10 @@ const SantiagoPage = () => {
       <main className={styles.page}>
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
-            <p>Santiago is a beautiful boy 🥇 He always has been.</p>
+            <p>Santiago is a beautiful boy 🥇</p>
             <p>
               Like his brother <Link to='/diego'>Diego</Link>, "Baby A", he enjoys video games and
-              animae. His favorite games are also Fortnite, Roblox and Minecraft.
+              anime. His favorite games are also Fortnite, Roblox and Minecraft.
             </p>
             <p>
               Some of his other interests include watching movies, playing basketball and reading

@@ -16,8 +16,8 @@ const LindaPage = () => {
           <div className={styles.gridItem1}>
             <p>Linda is an incredible daughter 🤩</p>
             <p>
-              She enjoys watching anime, reading anime and playing on her iPad. She is interested in
-              Japanes culture and Japanese food.
+              She enjoys watching anime, reading anime and playing with her iPad. She is interested
+              in Japanes culture and Japanese food.
             </p>
             <p>
               Ever since she was a baby she has been an adventurous eater. She will try any type of
@@ -31,7 +31,9 @@ const LindaPage = () => {
             </p>
             <p>She is the very creative 🎨 princess of the Davis Family 💯 </p>
             <p>Her first and middle names together mean "Pretty Star ⭐"</p>
-            <p>And she is 🙂</p>
+            <p>And she is one 🙂</p>
+            <br />
+            <br />
             <StaticImage
               src='../images/tokyo.jpg'
               alt='Tokyo Skyline at Night'

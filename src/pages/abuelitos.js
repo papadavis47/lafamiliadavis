@@ -15,11 +15,26 @@ const AbuelitosPage = () => {
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
             <p>
-              Victor 🇳🇮 and Inmaculada 🇳🇮 have helped raise the Davis Children from the first
-              minutes they were born 🌄
+              Victor Fuentes 🇳🇮 and Inmaculada Cruz de Fuentes 🇳🇮 have helped raise the Davis
+              Children from the first minutes they were born 🌄
             </p>
             <p>They are classy and amazing grandparents and inlaws 🥇</p>
             <p>The Davis Kids would not be who they are today without these two grandparents 💯</p>
+            <p>The are both talented and accomplished painters.</p>{" "}
+            <p>
+              Each of them have more than forty years of experience in the art world. First in
+              Nicaragua, then Southern California and for the past several years in Washington Sate.
+            </p>
+            <p>
+              Inmaculada immigrated to the United States in the mid 1990s and Victor came to the USA
+              in 1999.
+            </p>
+            <p>
+              For the majority of that time, their daughter has been married to a "gringo" - a North
+              American - and they have always impressed their son-in-law with their Nicaraguan
+              sensibilies regarding family love and devotion.
+            </p>
+            <p>They are both caring and loving parents and grandparents.</p>
           </div>
           <div>
             <StaticImage
