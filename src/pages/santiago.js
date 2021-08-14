@@ -29,6 +29,14 @@ const SantiagoPage = () => {
               Santiago can be wise beyond his years. He can be very insightful and he has a huge,
               kind heart 💖
             </p>
+            <p>
+              There is no one that his <Link to='/john'>father</Link> would rather watch a move with
+              than Santiago.
+            </p>
+            <p>
+              He is also a great partner for his <Link to='/inma'>mother</Link> while binge watching
+              TV shows 😀
+            </p>
             <p>His parents have been proud of him everyday - since his first day ⭐</p>
             <StaticImage
               src='../images/fortnite-blue.png'
