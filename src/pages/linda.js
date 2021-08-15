@@ -28,14 +28,11 @@ const LindaPage = () => {
             <p>
               Linda is the pride and joy of her <Link to='/john'>father</Link> 🤩 💯
             </p>
-            <p>
-              She loves and admires her grandmother and her Mom. She has always been sweet and
-              kindhearted. She is a good sister to her brothers.
-            </p>
+            <p>She loves and admires her grandmother and her Mom.</p>{" "}
+            <p>Since she was a baby, Linda has been kindhearted.</p>
             <p>She is the very creative 🎨 princess of the Davis Family 💯 </p>
             <p>Her first and middle names together mean "Pretty Star ⭐"</p>
             <p>And she is one 🙂</p>
-            <br />
             <br />
             <StaticImage
               src='../images/tokyo.jpg'

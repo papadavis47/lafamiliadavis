@@ -26,12 +26,12 @@ const SantiagoPage = () => {
             </p>
             <p>He is great on a bike 💯 He is a good swimmer and he loves the water.</p>
             <p>
-              Santiago can be wise beyond his years. He can be very insightful and he has a huge,
+              Santiago is often wise beyond his years. He can be very insightful and he has a huge,
               kind heart 💖
             </p>
             <p>
-              There is no one that his <Link to='/john'>father</Link> would rather watch a move with
-              than Santiago.
+              There is no one that his <Link to='/john'>father</Link> would rather watch a movie
+              with than Santiago.
             </p>
             <p>
               He is also a great partner for his <Link to='/inma'>mother</Link> while binge watching

@@ -22,7 +22,7 @@ const JohnPage = () => {
 
             <p>
               His other interests in programming include Python, MongoDB, Rust, ethical hacking, CTF
-              competions, and all things JAMStack. His favorite backend technologies are Express,
+              competions, and all things JAMStack. His favorite backend frameworks are Express,
               Django and Flask.
             </p>
             <p>The main love in his life is his family.</p>

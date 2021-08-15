@@ -16,34 +16,30 @@ const IndexPage = () => {
           <div className={styles.gridItem1}>
             <p>
               This is our family's website 👪 where we share some of our story and some of our
-              experiences as parents ( and as children ) in the 21st Century.
+              experiences as parents ( and as members of a family ) in the 21st Century.
             </p>
             <p>John is a software developer and Inma is an eductor.</p>
-            <p>
-              We love each other very much and this website is evolving in celebration of that love
-              💖
-            </p>
             <p>
               We are proud of the fact that we are a bicultural and bilingual family. Inma is from
               Nicaragua and John was born and raised in the United States. The children: Diego,
               Santiago and Linda, are a combination of those two cultures and world views 🇳🇮 🇺🇸
             </p>
-
             <p>
               Years before the kids were born, John and Inma decided that they would raise their
               "future children" - to appreciate the culture and history of both countries. They have
               done just that 🦚
             </p>
             <p>
-              We enjoy restaurants, road trips, camping, movies, books, Netflix and spending time
-              with eachtother.
+              Our family enjoys restaurants, road trips, camping, movies, books, Netflix and
+              spending time with eachtother.
             </p>
 
             <p>
-              The kids love their various digital devices 😨 Their parents have to keep vigilant
+              The kids love their various digital devices 🤔 Their parents have to keep vigilant
               eyes on making sure they get exercise and go outside regularly to experience sun,
-              fresh air and nature. We are very much the modern family in that way.
+              fresh air and nature.
             </p>
+            <p>We are very much a modern family in that way.</p>
           </div>
           <div>
             <StaticImage
