@@ -47,7 +47,7 @@ const AbuelitosPage = () => {
               src='../images/abuelitos.jpg'
               alt='Some beautiful grandparents'
               width={700}
-              placeholder='tracedSVG'
+              placeholder='blurred'
               imgClassName={styles.pic}
             />
           </div>

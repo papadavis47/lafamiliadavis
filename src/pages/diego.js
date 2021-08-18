@@ -41,7 +41,7 @@ const DiegoPage = () => {
             <StaticImage
               src='../images/diego-nica.jpg'
               alt='My beautiful boy, Diego'
-              placeholder='tracedSVG'
+              placeholder='blurred'
               width={700}
               imgClassName={styles.pic}
             />
