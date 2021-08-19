@@ -1,12 +1,28 @@
 import * as React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
+import { graphql } from "gatsby";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
 import * as styles from "./main.module.css";
 
+export const data = graphql`
+  {
+    allFile(filter: { sourceInstanceName: { eq: "instagram" } }) {
+      nodes {
+        name
+        childImageSharp {
+          gatsbyImageData(height: 200, width: 200, layout: FIXED)
+        }
+      }
+    }
+  }
+`;
+
 // markup
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
+  const nodes = data.allFile.nodes;
+  console.log(data);
   return (
     <Layout>
       <Seo title='Home' />
@@ -53,7 +69,17 @@ const IndexPage = () => {
         </div>
         <section>
           <Intro name='Instagram Stuff' emoji='🖼️' label='Emoji of a picture frame' />
-          <div className='picture-container'></div>
+          <div className='experiment'>
+            {nodes.map((pic) => {
+              const image = getImage(pic);
+              return <GatsbyImage image={image} />;
+            })}
+          </div>
+          <div className='picture-container'>
+            {nodes.map((pic) => {
+              return <p>{pic.name}</p>;
+            })}
+          </div>
         </section>
       </main>
     </Layout>

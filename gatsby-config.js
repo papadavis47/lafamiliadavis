@@ -12,10 +12,17 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: `images`,
+        path: `./src/images/`,
       },
-      __key: "images",
+      __key: `images`,
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `instagram`,
+        path: `${__dirname}/src/instagram/`,
+      },
     },
     `gatsby-plugin-react-helmet`,
   ],
