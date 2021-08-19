@@ -51,6 +51,10 @@ const IndexPage = () => {
             />
           </div>
         </div>
+        <section>
+          <Intro name='Instagram Stuff' emoji='🖼️' label='Emoji of a picture frame' />
+          <div className='picture-container'></div>
+        </section>
       </main>
     </Layout>
   );
