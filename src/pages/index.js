@@ -10,6 +10,7 @@ export const data = graphql`
   {
     allFile(filter: { sourceInstanceName: { eq: "instagram" } }) {
       nodes {
+        id
         name
         childImageSharp {
           gatsbyImageData(height: 300, width: 300, layout: FIXED)
@@ -22,7 +23,6 @@ export const data = graphql`
 // markup
 const IndexPage = ({ data }) => {
   const nodes = data.allFile.nodes;
-  console.log(data);
   return (
     <Layout>
       <Seo title='Home' />
@@ -72,7 +72,7 @@ const IndexPage = ({ data }) => {
           <div className={styles.picContainer}>
             {nodes.map((pic) => {
               const image = getImage(pic);
-              return <GatsbyImage image={image} className={styles.instaPic} />;
+              return <GatsbyImage key={pic.id} image={image} className={styles.instaPic} alt='' />;
             })}
           </div>
         </section>
