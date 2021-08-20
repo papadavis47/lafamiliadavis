@@ -12,7 +12,7 @@ export const data = graphql`
       nodes {
         name
         childImageSharp {
-          gatsbyImageData(height: 200, width: 200, layout: FIXED)
+          gatsbyImageData(height: 300, width: 300, layout: FIXED)
         }
       }
     }
@@ -68,16 +68,11 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
         <section>
-          <Intro name='Instagram Stuff' emoji='🖼️' label='Emoji of a picture frame' />
-          <div className='experiment'>
+          <Intro name='Recent Instagram Images' emoji='🖼️' label='Emoji of a picture frame' />
+          <div className={styles.picContainer}>
             {nodes.map((pic) => {
               const image = getImage(pic);
-              return <GatsbyImage image={image} />;
-            })}
-          </div>
-          <div className='picture-container'>
-            {nodes.map((pic) => {
-              return <p>{pic.name}</p>;
+              return <GatsbyImage image={image} className={styles.instaPic} />;
             })}
           </div>
         </section>

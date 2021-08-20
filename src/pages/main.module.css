@@ -1,4 +1,14 @@
-.page {
+.pic-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.insta-pic {
+  margin: 1rem 0.5rem;
 }
 .page p {
   font-size: 1.1rem;
