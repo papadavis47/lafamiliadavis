@@ -32,7 +32,7 @@ const IndexPage = ({ data }) => {
           <div className={styles.gridItem1}>
             <p>
               This is our family's website 👪 where we share some of our story and some of our
-              experiences as parents ( and as members of a family ) in the 21st Century.
+              experiences as parents ( and as sons and daughter ) in the 21st Century.
             </p>
             <p>John is a software developer and Inma is an eductor.</p>
             <p>
@@ -47,7 +47,7 @@ const IndexPage = ({ data }) => {
             </p>
             <p>
               Our family enjoys restaurants, road trips, camping, movies, books, Netflix and
-              spending time with eachtother.
+              spending time with each other.
             </p>
 
             <p>

@@ -27,7 +27,7 @@ const DiegoPage = () => {
             </p>
             <p>
               Diego is the first born twin and has been nicknamed "Baby A" since before he was born
-              ( meaning the baby growing closets to his mother's cervix ).
+              ( meaning the baby growing closest to his mother's cervix ).
             </p>
             <p>
               His brother, <Link to='/santiago'>Santiago</Link> ("Baby B"), has always been there
