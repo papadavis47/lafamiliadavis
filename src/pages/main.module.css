@@ -38,6 +38,10 @@ a {
   text-decoration: none;
 }
 
+.notes-link {
+  margin-bottom: 2rem;
+}
+
 /* .grid-item-1  p {
   padding-top: 0;
 } */

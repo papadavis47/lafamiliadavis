@@ -1,24 +1,10 @@
 import * as React from "react";
 import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
 import * as styles from "./main.module.css";
-
-export const data = graphql`
-  {
-    allFile(filter: { sourceInstanceName: { eq: "instagram" } }) {
-      nodes {
-        id
-        name
-        childImageSharp {
-          gatsbyImageData(height: 300, width: 300, layout: FIXED)
-        }
-      }
-    }
-  }
-`;
 
 // markup
 const IndexPage = ({ data }) => {
@@ -68,7 +54,7 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
         <section>
-          <Intro name='Recent Instagram Images' emoji='🖼️' label='Emoji of a picture frame' />
+          <Intro name='Instagram Images' emoji='🖼️' label='Emoji of a picture frame' />
           <div className={styles.picContainer}>
             {nodes.map((pic) => {
               const image = getImage(pic);
@@ -76,9 +62,34 @@ const IndexPage = ({ data }) => {
             })}
           </div>
         </section>
+        <div className={styles.notesLink}>
+          <Link to='/notes'>
+            <Intro
+              name='Click here to Read Family Notes'
+              emoji='✍🏼'
+              label='Emoji of a writing hand'
+            />
+          </Link>
+        </div>
       </main>
     </Layout>
   );
 };
+
+// Graphql page query for this page
+
+export const data = graphql`
+  {
+    allFile(filter: { sourceInstanceName: { eq: "instagram" } }) {
+      nodes {
+        id
+        name
+        childImageSharp {
+          gatsbyImageData(height: 300, width: 300, layout: FIXED)
+        }
+      }
+    }
+  }
+`;
 
 export default IndexPage;
