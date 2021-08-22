@@ -41,8 +41,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `notes`,
-        path: `${__dirname}/notes/`,
+        name: `blog`,
+        path: `${__dirname}/blog/`,
       },
     },
     `gatsby-plugin-react-helmet`,

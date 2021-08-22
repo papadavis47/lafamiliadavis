@@ -63,9 +63,9 @@ const IndexPage = ({ data }) => {
           </div>
         </section>
         <div className={styles.notesLink}>
-          <Link to='/notes'>
+          <Link to='/blog'>
             <Intro
-              name='Click here to Read Family Notes'
+              name='Click here for Davis Family Blog'
               emoji='✍🏼'
               label='Emoji of a writing hand'
             />
