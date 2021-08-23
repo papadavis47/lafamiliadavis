@@ -8,10 +8,12 @@ const BlogPost = ({ data }) => {
   return (
     <Layout>
       <div className={styles.page}>
-        <p>{data.mdx.frontmatter.date}</p>
-        <h1>{data.mdx.frontmatter.title}</h1>
-        <p>{data.mdx.frontmatter.author}</p>
-        <MDXRenderer>{data.mdx.body}</MDXRenderer>
+        <article className={styles.postContainer}>
+          <h1 className={styles.postTitle}>{data.mdx.frontmatter.title}</h1>
+          <h3 className={styles.authorCredit}>Author: {data.mdx.frontmatter.author}</h3>
+          <p className={styles.date}>{data.mdx.frontmatter.date}</p>
+          <MDXRenderer>{data.mdx.body}</MDXRenderer>
+        </article>
       </div>
     </Layout>
   );

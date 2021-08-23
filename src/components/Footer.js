@@ -7,14 +7,14 @@ const Footer = () => {
     <footer className={styles.pageFooter}>
       <p>
         &copy; {new Date().getFullYear()}&nbsp;
-        <a href='https://github.com/papadavis47/lafamiliadavis' target='_blank'>
+        <a href='https://github.com/papadavis47/lafamiliadavis' target='_blank' rel='noreferrer'>
           <span>LaFamiliaDavis</span>&nbsp;{" "}
           <span>
             <VscGithubInverted />
           </span>
         </a>
         &nbsp; - Built with <span>&hearts;</span> and
-        <a href='https://gatsbyjs.com' target='_blank'>
+        <a href='https://gatsbyjs.com' target='_blank' rel='noreferrer'>
           {" "}
           Gatsby
         </a>

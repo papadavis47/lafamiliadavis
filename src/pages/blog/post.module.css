@@ -1,3 +1,31 @@
 .page {
   height: 100vh;
 }
+
+.post-container {
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.post-title {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.author-credit {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.date {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}

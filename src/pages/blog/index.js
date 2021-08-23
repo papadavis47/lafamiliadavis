@@ -1,14 +1,16 @@
 import * as React from "react";
 import { Link, graphql } from "gatsby";
+import Intro from "../../components/Intro";
 import Layout from "../../components/Layout";
-import * as styles from "./blog.module.css";
+import * as styles from "./blogIndex.module.css";
 
 const BlogPage = ({ data }) => {
   const nodes = data.allMdx.nodes;
   return (
     <Layout>
       <div className={styles.container}>
-        <h1 className={styles.blogTitle}>Davis Family Blog Posts</h1>
+        {/* <h1 className={styles.blogTitle}>Davis Family Blog Posts</h1> */}
+        <Intro name='Davis Family Blog Posts' emoji='⌨️' label='Computer Keyboard Emoji' />
         <main className={styles.blogList}>
           {nodes.map((node) => {
             return (
