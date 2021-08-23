@@ -10,7 +10,9 @@ const BlogPost = ({ data }) => {
       <div className={styles.page}>
         <article className={styles.postContainer}>
           <h1 className={styles.postTitle}>{data.mdx.frontmatter.title}</h1>
-          <h3 className={styles.authorCredit}>Author: {data.mdx.frontmatter.author}</h3>
+          <h3 className={styles.authorCredit}>
+            Written by <span>{data.mdx.frontmatter.author}</span>
+          </h3>
           <p className={styles.date}>{data.mdx.frontmatter.date}</p>
           <MDXRenderer>{data.mdx.body}</MDXRenderer>
         </article>

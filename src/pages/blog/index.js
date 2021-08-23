@@ -18,6 +18,7 @@ const BlogPage = ({ data }) => {
                 <h1>
                   <Link to={`/blog/${node.slug}`}>{node.frontmatter.title}</Link>
                 </h1>
+                <p className={styles.description}>{node.frontmatter.description}</p>
                 <p>{node.frontmatter.date}</p>
                 <div className={styles.underline}></div>
               </article>
@@ -46,6 +47,7 @@ export const query = graphql`
       nodes {
         frontmatter {
           title
+          description
           date(formatString: "MMMM Do, YYYY")
         }
         id
