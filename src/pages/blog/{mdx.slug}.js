@@ -7,14 +7,17 @@ import * as styles from "./post.module.css";
 const BlogPost = ({ data }) => {
   return (
     <Layout>
-      <div className={styles.page}>
+      <div>
         <article className={styles.postContainer}>
           <h1 className={styles.postTitle}>{data.mdx.frontmatter.title}</h1>
-          <h3 className={styles.authorCredit}>
-            Written by <span>{data.mdx.frontmatter.author}</span>
-          </h3>
           <p className={styles.date}>{data.mdx.frontmatter.date}</p>
           <MDXRenderer>{data.mdx.body}</MDXRenderer>
+          <h3 className={styles.authorCredit}>
+            Post ✍🏼 by:{" "}
+            <strong>
+              <span>{data.mdx.frontmatter.author}</span>
+            </strong>
+          </h3>
         </article>
       </div>
     </Layout>

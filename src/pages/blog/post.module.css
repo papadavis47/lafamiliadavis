@@ -1,6 +1,6 @@
-.page {
+/* .page {
   height: 100vh;
-}
+} */
 
 .post-container {
   width: 70%;
@@ -17,10 +17,11 @@
 }
 
 .author-credit {
-  text-align: center;
+  /* text-align: center; */
   font-size: 1.5rem;
   font-weight: 500;
   padding-bottom: 1rem;
+  color: dodgerblue;
 }
 
 .date {
@@ -34,5 +35,9 @@
   .post-title {
     font-size: 1.75rem;
     font-weight: 500;
+  }
+
+  .author-credit {
+    font-size: 1.25rem;
   }
 }
