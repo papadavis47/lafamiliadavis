@@ -5,7 +5,10 @@
   "description": "lafamiliadavis",
   "author": "John William Davis",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "blog",
+    "family",
+    "react"
   ],
   "scripts": {
     "develop": "gatsby develop",

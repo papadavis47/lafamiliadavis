@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "gatsby";
 import { VscMenu, VscClose } from "react-icons/vsc";
 import * as styles from "./header.module.css";
 import Navigation from "./Navigation.js";
