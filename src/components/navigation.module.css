@@ -1,6 +1,8 @@
 .navbar {
   display: flex;
   justify-content: center;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .nav-list {
@@ -8,11 +10,15 @@
   list-style: none;
   justify-content: center;
   align-items: center;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .nav-list-item {
   padding-left: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .link {
