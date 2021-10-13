@@ -1,70 +1,10 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   background-image: linear-gradient(#4a69bd, #0984e3);
   color: white;
   margin-bottom: 1rem;
-}
-
-/* Title / Logo Stuff */
-
-.site-title {
-  font-size: 2.5rem;
-}
-
-.span {
-  font-size: 2rem;
-  margin: 0 18px;
-}
-
-/* End Title Stuff */
-
-.navbar {
-  display: flex;
-  justify-content: center;
-}
-
-.nav-list {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-list-item {
-  padding-left: 1rem;
-  font-size: 1.5rem;
-}
-
-.link {
-  text-decoration: none;
-  color: white;
-}
-
-.title-link {
-  text-decoration: none;
-  color: white;
-}
-
-.link:hover {
-  /* text-decoration: underline; */
-  color: yellow;
-}
-
-.special-link {
-  border-left: 1px solid white;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.nav-list-item:last-child {
-  border-left: 1px solid white;
-  font-weight: 800;
-}
-
-.header button {
-  display: none;
 }
 
 .header {
@@ -76,7 +16,7 @@
 
 /* Media Queries */
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .tall {
     height: 100vh;
   }
@@ -90,24 +30,24 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     /* padding-bottom: 3px; */
-    padding: 16px;
-    align-self: center;
-    display: block;
-    font-weight: 700;
-  }
+/* padding: 16px; */
+/* align-self: center; */
+/* display: block; */
+/* font-weight: 700; */
+/* } */
 
-  .site-title {
+/* .site-title {
     font-size: 2.25rem;
     margin-top: 1rem;
     margin-bottom: 0.75rem;
     color: yellow;
-  }
+  } */
 
-  .header span {
+/* .header span {
     display: none;
-  }
+  } */
 
-  .nav-list {
+/* .nav-list {
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -115,9 +55,9 @@
     align-items: flex-start;
     margin: 0;
     padding-left: 0;
-  }
+  } */
 
-  .special-link {
+/* .special-link {
     border: none;
     padding: 0;
     margin: 0;
@@ -125,21 +65,14 @@
   .nav-list-item:last-child {
     font-weight: 800;
     border: none;
-  }
+  } */
 
-  .nav-list-item {
-    font-size: 1.5rem;
-    padding-top: 1rem;
-    margin-left: 0;
-    padding-left: 0;
-  }
-
-  .span {
+/* .span {
     font-size: 1rem;
     margin: 0 1rem;
-  }
+  } */
 
-  .hidden {
+/* .hidden {
     display: none;
   }
-}
+} */

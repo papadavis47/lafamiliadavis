@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list-item {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  /* text-decoration: underline; */
+  color: yellow;
+}
+
+.special-link {
+  border-left: 1px solid white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-list-item:last-child {
+  border-left: 1px solid white;
+  font-weight: 800;
+}
