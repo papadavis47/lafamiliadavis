@@ -1,24 +1,24 @@
 .header {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  /* background-color: #0984e3; */
+  justify-content: flex-start;
   background-image: linear-gradient(#4a69bd, #0984e3);
   color: white;
   margin-bottom: 1rem;
 }
 
+/* Title / Logo Stuff */
+
 .site-title {
-  font-size: 2.75rem;
-  margin-top: 2rem;
-  margin-bottom: 0;
-  margin-right: 0;
+  font-size: 2.5rem;
 }
 
 .span {
   font-size: 2rem;
-  margin: 0 1rem;
+  margin: 0 18px;
 }
+
+/* End Title Stuff */
 
 .navbar {
   display: flex;
@@ -73,12 +73,6 @@
   top: 0;
   z-index: 99;
 }
-
-/* .header svg {
-  font-size: 2rem;
-  padding-left: 3px;
-  margin-left: 3px;
-} */
 
 /* Media Queries */
 
@@ -149,20 +143,3 @@
     display: none;
   }
 }
-
-/* @media (min-width: 600px) {
-  .header button {
-    align-self: center;
-    margin: 1rem 0;
-    display: none;
-  }
-} */
-
-/* @media (min-width: 900px) {
-  .header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 99;
-  }
-} */
