@@ -25,9 +25,15 @@
   color: yellow;
 }
 
-.special-link {
+.abuelito-link {
   border-left: 1px solid white;
   padding-left: 1rem;
+  padding-right: 9px;
+}
+
+.blog-link {
+  border-left: 1px solid white;
+  padding-left: 9px;
   padding-right: 1rem;
 }
 

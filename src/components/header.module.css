@@ -1,13 +1,9 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: center;
   background-image: linear-gradient(#4a69bd, #0984e3);
   color: white;
   margin-bottom: 1rem;
-}
-
-.header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;

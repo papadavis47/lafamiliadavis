@@ -57,7 +57,16 @@ const Navigation = () => {
             to='/abuelitos'
             activeClassName='active-link'
           >
-            <p className={styles.specialLink}>Abuelitos</p>
+            <p className={styles.abuelitoLink}>Los Abuelitos</p>
+          </Link>
+        </li>
+        <li className={styles.navListItem}>
+          <Link
+            className={styles.link}
+            to='/blog'
+            activeClassName='active-link'
+          >
+            <p className={styles.blogLink}>Family Blog</p>
           </Link>
         </li>
         <li className={styles.navListItem}>
