@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: column;
   background-image: linear-gradient(#4a69bd, #0984e3);
-  color: white;
+  color: hsl(0, 0%, 100%);
   margin-bottom: 1rem;
   position: -webkit-sticky;
   position: sticky;

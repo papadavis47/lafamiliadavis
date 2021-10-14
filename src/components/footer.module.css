@@ -1,10 +1,8 @@
 .page-footer {
-  /* background-image: linear-gradient(red 30%, orange); */
-  background: red;
-  color: white;
+  background: hsl(0, 100%, 50%);
+  color: hsl(0, 0%, 100%);
   text-align: center;
-  /* padding: 1rem 0; */
-  height: 4rem;
+  height: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +20,7 @@
 
 @media (max-width: 700px) {
   .page-footer {
-    padding: 1rem 0.5rem;
+    padding: 18px 9px;
     font-size: 1.25rem;
   }
 }

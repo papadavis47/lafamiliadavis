@@ -1,9 +1,13 @@
 .active-link {
-  color: yellow;
+  color: hsl(60, 100%, 50%);
 }
 
 .home-link {
   display: none;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
