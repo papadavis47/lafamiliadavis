@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import * as styles from "./navigation.module.css";
 
 const Navigation = ({ menuOpen }) => {
+  console.log(menuOpen, "From Navigation");
   return (
     <nav className={styles.navbar}>
       <ul className={styles.navList}>

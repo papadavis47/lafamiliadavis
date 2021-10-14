@@ -14,6 +14,18 @@
   color: white;
 }
 
+.wrapper {
+  display: block;
+}
+
+/* Styles for open mobile menu */
+
+.mobile-wrapper {
+  display: none;
+}
+
+/* End styles for open mobile menu */
+
 @media screen and (max-width: 700px) {
   .site-title {
     font-size: 1.25rem;

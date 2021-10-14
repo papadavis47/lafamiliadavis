@@ -6,12 +6,17 @@ import TitleLogo from "./TitleLogo.js";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  console.log(open, "From the papa");
   return (
     <header className={styles.header}>
-      <TitleLogo />
+      <TitleLogo menuOpen={open} />
       <Navigation menuOpen={open} />
       <div className={styles.menu}>
-        <VscMenu size={36} onClick={() => setOpen(!open)} />
+        {!open ? (
+          <VscMenu size={36} onClick={() => setOpen(!open)} />
+        ) : (
+          <VscClose size={36} onClick={() => setOpen(!open)} />
+        )}
       </div>
     </header>
   );
