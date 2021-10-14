@@ -12,11 +12,7 @@ const Header = () => {
       <TitleLogo menuOpen={open} />
       <Navigation menuOpen={open} />
       <div className={styles.menu}>
-        {!open ? (
-          <VscMenu size={36} onClick={() => setOpen(!open)} />
-        ) : (
-          <VscClose size={36} onClick={() => setOpen(!open)} />
-        )}
+        {!open ? <VscMenu size={36} onClick={() => setOpen(!open)} /> : null}
       </div>
     </header>
   );
