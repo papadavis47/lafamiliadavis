@@ -5,13 +5,14 @@ import Navigation from "./Navigation.js";
 import TitleLogo from "./TitleLogo.js";
 
 const Header = () => {
-  const [show, setShow] = useState(false);
+  const [open, setOpen] = useState(false);
+  console.log(open);
   return (
     <header className={styles.header}>
       <TitleLogo />
-      <Navigation />
+      <Navigation menuOpen={open} />
       <div className={styles.menu}>
-        <VscMenu size={36} />
+        <VscMenu size={36} onClick={() => setOpen(!open)} />
       </div>
     </header>
   );

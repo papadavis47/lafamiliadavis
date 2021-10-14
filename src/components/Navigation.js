@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import * as styles from "./navigation.module.css";
 
-const Navigation = () => {
+const Navigation = ({ menuOpen }) => {
   return (
     <nav className={styles.navbar}>
       <ul className={styles.navList}>
