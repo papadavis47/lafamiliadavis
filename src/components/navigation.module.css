@@ -44,3 +44,9 @@
   border-left: 1px solid hsl(0, 0%, 100%);
   font-weight: 800;
 }
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+}

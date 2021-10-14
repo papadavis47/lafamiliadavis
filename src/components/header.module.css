@@ -13,9 +13,18 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1260px) {
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
   .header {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .menu {
+    display: block;
   }
 }
 

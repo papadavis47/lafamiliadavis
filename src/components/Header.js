@@ -10,6 +10,9 @@ const Header = () => {
     <header className={styles.header}>
       <TitleLogo />
       <Navigation />
+      <div className={styles.menu}>
+        <VscMenu size={36} />
+      </div>
     </header>
   );
 };
