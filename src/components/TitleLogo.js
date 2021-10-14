@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import * as styles from "./title.module.css";
 
 const TitleLogo = ({ menuOpen }) => {
-  console.log(menuOpen, "From the title!");
   return (
     <div
       className={!menuOpen ? `${styles.wrapper}` : `${styles.mobileWrapper}`}
