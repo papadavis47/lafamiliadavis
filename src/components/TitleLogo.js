@@ -4,7 +4,7 @@ import * as styles from "./title.module.css";
 
 const TitleLogo = () => {
   return (
-    <div className={styles.wrapper}>
+    <div>
       <Link to='/' className={styles.titleLink}>
         <h1 className={styles.siteTitle}>
           <span className={styles.span} role='img' aria-label='heart'>
