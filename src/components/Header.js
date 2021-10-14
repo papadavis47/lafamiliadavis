@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { VscMenu, VscClose } from "react-icons/vsc";
+import { VscMenu } from "react-icons/vsc";
 import * as styles from "./header.module.css";
 import Navigation from "./Navigation.js";
 import TitleLogo from "./TitleLogo.js";
