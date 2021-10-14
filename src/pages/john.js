@@ -63,7 +63,7 @@ const JohnPage = () => {
         </div>
         <section>
           <Intro
-            name='Spending Time With The Ones I Love'
+            name='Spending Time With The Ones He Loves'
             emoji='😻'
             label='Emoji of a Smiling Cat with heart eyes'
           />
