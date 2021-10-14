@@ -61,15 +61,22 @@ const JohnPage = () => {
             />
           </div>
         </div>
-        <div className={styles.largePic}>
-          <StaticImage
-            src='../images/family-meal.jpg'
-            alt='Daving Family Lunch Together'
-            placeholder='blurred'
-            width={800}
-            imgClassName={styles.pic}
+        <section>
+          <Intro
+            name='Spending Time With The Ones I Love'
+            emoji='😻'
+            label='Emoji of a Smiling Cat with heart eyes'
           />
-        </div>
+          <div className={styles.largePic}>
+            <StaticImage
+              src='../images/family-meal.jpg'
+              alt='Daving Family Lunch Together'
+              placeholder='blurred'
+              width={800}
+              imgClassName={styles.pic}
+            />
+          </div>
+        </section>
       </main>
     </Layout>
   );

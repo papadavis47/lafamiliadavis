@@ -8,7 +8,7 @@
 }
 
 .large-pic {
-  margin: 0 18px 36px 18px;
+  margin: 24px 18px 36px 18px;
   text-align: center;
 }
 
@@ -29,7 +29,7 @@
   width: 80vw;
   margin: 0 auto;
   gap: 36px;
-  padding: 36px 0;
+  padding: 24px 0;
 }
 
 .pic {
