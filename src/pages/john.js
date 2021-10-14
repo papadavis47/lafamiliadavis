@@ -61,6 +61,15 @@ const JohnPage = () => {
             />
           </div>
         </div>
+        <div className={styles.largePic}>
+          <StaticImage
+            src='../images/family-meal.jpg'
+            alt='Daving Family Lunch Together'
+            placeholder='blurred'
+            width={800}
+            imgClassName={styles.pic}
+          />
+        </div>
       </main>
     </Layout>
   );

@@ -56,6 +56,15 @@ const DiegoPage = () => {
             />
           </div>
         </div>
+        <div className={styles.largePic}>
+          <StaticImage
+            src='../images/diego-gamer.jpg'
+            alt='Diego at this gaming station'
+            placeholder='blurred'
+            width={800}
+            imgClassName={styles.pic}
+          />
+        </div>
       </main>
     </Layout>
   );
