@@ -21,72 +21,10 @@
   .header {
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 14px 0;
   }
 
   .menu {
     display: block;
   }
 }
-
-/* Media Queries */
-
-/* @media (max-width: 700px) {
-  .tall {
-    height: 100vh;
-  }
-
-  .navbar {
-    padding-bottom: 2rem;
-    padding-left: 0;
-  }
-
-  .header button {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    /* padding-bottom: 3px; */
-/* padding: 16px; */
-/* align-self: center; */
-/* display: block; */
-/* font-weight: 700; */
-/* } */
-
-/* .site-title {
-    font-size: 2.25rem;
-    margin-top: 1rem;
-    margin-bottom: 0.75rem;
-    color: yellow;
-  } */
-
-/* .header span {
-    display: none;
-  } */
-
-/* .nav-list {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 0;
-    padding-left: 0;
-  } */
-
-/* .special-link {
-    border: none;
-    padding: 0;
-    margin: 0;
-  }
-  .nav-list-item:last-child {
-    font-weight: 800;
-    border: none;
-  } */
-
-/* .span {
-    font-size: 1rem;
-    margin: 0 1rem;
-  } */
-
-/* .hidden {
-    display: none;
-  }
-} */

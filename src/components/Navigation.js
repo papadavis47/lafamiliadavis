@@ -5,8 +5,10 @@ import * as styles from "./navigation.module.css";
 const Navigation = ({ menuOpen }) => {
   console.log(menuOpen, "From Navigation");
   return (
-    <nav className={styles.navbar}>
-      <ul className={styles.navList}>
+    <nav className={!menuOpen ? `${styles.nav}` : `${styles.openNav}`}>
+      <ul
+        className={!menuOpen ? `${styles.navList}` : `${styles.mobileNavlist}`}
+      >
         <li className={styles.navListItem}>
           <Link
             className={styles.link}

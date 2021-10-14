@@ -1,4 +1,4 @@
-.navbar {
+.nav {
   padding-top: 0;
   margin-top: 0;
 }
@@ -45,8 +45,10 @@
   font-weight: 800;
 }
 
+/* All Media Queries for Nav */
+
 @media screen and (max-width: 700px) {
-  .navbar {
+  .nav {
     display: none;
   }
 
@@ -54,9 +56,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
   }
 
   .open-nav {
     display: block;
+    height: 100vh;
+  }
+
+  .nav-list-item {
+    font-size: 2rem;
+    padding: 0;
+    margin: 18px 0;
+  }
+
+  .link {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .link:hover {
+    color: hsl(60, 100%, 50%);
+  }
+
+  .abuelito-link {
+    border: none;
+    padding: 0;
+  }
+
+  .blog-link {
+    border: none;
+    padding: 0;
+  }
+
+  .nav-list-item:last-child {
+    border: none;
+    font-weight: 800;
   }
 }
