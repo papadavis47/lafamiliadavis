@@ -78,7 +78,7 @@ const IndexPage = ({ data }) => {
         <div className={styles.notesLink}>
           <Link to='/blog'>
             <Intro
-              name='Check Out The Davis Family Blog!'
+              name='Click Here To Check Out The Davis Family Blog!'
               emoji='✍🏼'
               label='Emoji of a writing hand'
             />
