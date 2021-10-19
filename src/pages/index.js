@@ -50,7 +50,7 @@ const IndexPage = ({ data }) => {
               src='../images/our-family.jpg'
               alt='Two handsome twin boys'
               width={700}
-              placeholder='tracedSVG'
+              placeholder='dominantColor'
               imgClassName={styles.pic}
             />
           </div>
