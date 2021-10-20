@@ -15,9 +15,10 @@ const query = graphql`
   }
 `;
 
-const Seo = ({ title, description, image }) => {
+const Seo = ({ title, description }) => {
   const { site } = useStaticQuery(query);
   const metaDescription = description || site.siteMetadata.description;
+  const image = site.siteMetadata.image;
   return (
     <Helmet
       htmlAttributes={{ lang: "en" }}
@@ -26,8 +27,8 @@ const Seo = ({ title, description, image }) => {
         { name: `description`, content: metaDescription },
         { name: `twitter:card`, content: "summary_large_image" },
         { name: `twitter:title`, content: { title } },
-        { name: `twitter:description`, content: { description } },
-        { name: `twitter:image`, content: { image } },
+        { name: `twitter:description`, content: metaDescription },
+        { name: `twitter:image`, content: image },
       ]}
     ></Helmet>
   );
