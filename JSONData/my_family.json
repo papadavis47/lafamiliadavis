@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "Diego",
+    "middleName": "Benito",
+    "lastName": "Davis",
+    "gender": "male",
+    "age": 12,
+    "hairColor": "black"
+  },
+  {
+    "firstName": "Santiago",
+    "middleName": "Camilo",
+    "lastName": "Davis",
+    "gender": "male",
+    "age": 12,
+    "hairColor": "brown"
+  },
+  {
+    "firstName": "Linda",
+    "middleName": "Estrella",
+    "lastName": "Davis",
+    "gender": "female",
+    "age": 9,
+    "hairColor": "dark-brown"
+  }
+]
