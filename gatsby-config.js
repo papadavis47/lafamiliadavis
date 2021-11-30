@@ -4,8 +4,7 @@ module.exports = {
     siteUrl: "https://www.lafamiliadavis.com",
     author: "John William Davis",
     description: "A cool place to share things about our family 🤩",
-    image:
-      "https://res.cloudinary.com/papadavis47/image/upload/v1634753852/our-family_mmcxny.jpg",
+    image: "https://res.cloudinary.com/papadavis47/image/upload/v1634753852/our-family_mmcxny.jpg",
   },
   plugins: [
     `gatsby-plugin-gatsby-cloud`,
@@ -33,6 +32,14 @@ module.exports = {
         path: `./src/images/`,
       },
       __key: `images`,
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `more_images`,
+        path: `./src/more_images/`,
+      },
+      __key: `more_images`,
     },
     {
       resolve: `gatsby-source-filesystem`,

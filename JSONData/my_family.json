@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "firstName": "Diego",
     "middleName": "Benito",
     "lastName": "Davis",
@@ -8,6 +9,7 @@
     "hairColor": "black"
   },
   {
+    "id": 2,
     "firstName": "Santiago",
     "middleName": "Camilo",
     "lastName": "Davis",
@@ -16,6 +18,7 @@
     "hairColor": "brown"
   },
   {
+    "id": 3,
     "firstName": "Linda",
     "middleName": "Estrella",
     "lastName": "Davis",
