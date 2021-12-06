@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "gatsby";
-import * as styles from "./title.module.css";
+import * as styles from "./titlelogo.module.css";
 
 const TitleLogo = ({ menuOpen }) => {
   return (
-    <div
-      className={!menuOpen ? `${styles.wrapper}` : `${styles.mobileWrapper}`}
-    >
+    <div className={!menuOpen ? `${styles.wrapper}` : `${styles.mobileWrapper}`}>
       <Link to='/' className={styles.titleLink}>
         <h1 className={styles.siteTitle}>
           <span className={styles.span} role='img' aria-label='heart'>

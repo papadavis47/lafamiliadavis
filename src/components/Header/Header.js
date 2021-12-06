@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { VscMenu } from "react-icons/vsc";
 import * as styles from "./header.module.css";
-import Navigation from "./Navigation.js";
-import TitleLogo from "./TitleLogo.js";
+import Navigation from "../Navigation";
+import TitleLogo from "../TitleLogo";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
