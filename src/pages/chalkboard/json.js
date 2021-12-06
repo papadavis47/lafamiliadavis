@@ -1,7 +1,7 @@
 import React from "react";
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 import myFamily from "../../../JSONData/my_family.json";
-import Layout from "../../components/Layout.js";
+import Layout from "../../components/Layout";
 // import diego from "../../more_images/cool_diego_joshuatree.jpg";
 
 function JSON() {
