@@ -14,9 +14,7 @@ const JohnPage = () => {
       <main className={styles.page}>
         <div className={styles.gridContainer}>
           <div className={styles.gridItem1}>
-            <p>
-              John William Davis is a software engineer focused on JavaScript.
-            </p>
+            <p>John William Davis is a software engineer focused on JavaScript.</p>
             <p>
               His primary interest is building user interfaces with{" "}
               <a href='https://reactjs.org/'>React</a> - including with{" "}
@@ -25,26 +23,22 @@ const JohnPage = () => {
             </p>
 
             <p>
-              His other interests in programming include Python, MongoDB, Rust,
-              ethical hacking, CTF competions, and all things{" "}
-              <a href='https://jamstack.org/'>JAMStack</a>. His favorite backend
-              frameworks are <a href='https://expressjs.com/'>Express</a>,{" "}
-              <a href='https://www.djangoproject.com/'>Django</a> and{" "}
-              <a href='https://flask.palletsprojects.com/en/2.0.x/'>Flask</a>.
+              His other interests in programming include Python, MongoDB, Rust, ethical hacking, CTF
+              competions, and all things <a href='https://jamstack.org/'>JAMStack</a>. His favorite
+              backend framework is <a href='https://expressjs.com/'>Express.js</a> and his favorite
+              runtime is <a href='https://nodejs.org'>Node</a>.
             </p>
             <p>The main love in his life is his family.</p>
             <p>
-              He uses this website as a place to experiment with Gatsby. And to
-              celebrate his family ❤️ These pages are his sandbox - and they are
-              constantly changing.
+              He uses this website as a place to experiment with Gatsby. And to celebrate his family
+              ❤️ These pages are his sandbox - and they are constantly changing.
             </p>
             <p>
-              From the beginning he wanted this small space on the internet to
-              be a place for experimentation and fun.
+              From the beginning he wanted this small space on the internet to be a place for
+              experimentation and fun.
             </p>
             <p>
-              He is experimenting every week 💯. Trying out different aspects of
-              React and Gatsby.
+              He is experimenting every week 💯. Trying out different aspects of React and Gatsby.
             </p>
             <p>
               So <strong>Stay Tuned</strong> 😎
