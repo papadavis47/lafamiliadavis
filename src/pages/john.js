@@ -23,10 +23,10 @@ const JohnPage = () => {
             </p>
 
             <p>
-              His other interests in programming include Python, MongoDB, Rust, ethical hacking, CTF
+              His other interests in programming include Rust, MongoDB, Web3, ethical hacking, CTF
               competions, and all things <a href='https://jamstack.org/'>JAMStack</a>. His favorite
               backend framework is <a href='https://expressjs.com/'>Express.js</a> and his favorite
-              runtime is <a href='https://nodejs.org'>Node</a>.
+              runtime is <a href='https://nodejs.org'>Node.js</a>.
             </p>
             <p>The main love in his life is his family.</p>
             <p>
